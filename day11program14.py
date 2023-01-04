@@ -1,6 +1,6 @@
 def printSeries(ch,n):
     assert(n>=0),'INVALID'
-    for i in range(n-1):
+    for i in range(n+1):
      print(ch*i)
 ch=input()
 n=int(input())
